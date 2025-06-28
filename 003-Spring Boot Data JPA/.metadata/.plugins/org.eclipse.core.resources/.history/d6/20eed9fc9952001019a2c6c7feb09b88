@@ -1,0 +1,11 @@
+package com.app.arman.repo;
+
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.app.arman.entity.Book;
+
+public interface BookRepository 
+	extends PagingAndSortingRepository<Book, Integer> {
+
+}

@@ -1,0 +1,15 @@
+package com.app.arman.entity;
+
+public class Product {
+	
+	private Integer prodId;
+	private String prodName;
+	
+	
+	private Set<String> vendors;
+	private List<String> versions;
+	
+	
+	private Map<String,String> clients;
+
+}

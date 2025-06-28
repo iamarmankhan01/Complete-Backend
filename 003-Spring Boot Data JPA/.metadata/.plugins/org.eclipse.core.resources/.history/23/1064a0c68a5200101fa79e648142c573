@@ -1,0 +1,5 @@
+package com.app.arman.exception;
+
+public class BookNotFoundException {
+
+}

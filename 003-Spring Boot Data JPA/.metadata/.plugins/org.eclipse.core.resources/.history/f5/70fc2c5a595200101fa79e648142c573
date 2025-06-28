@@ -1,0 +1,5 @@
+package com.app.arman.entity;
+
+public class Employee {
+
+}

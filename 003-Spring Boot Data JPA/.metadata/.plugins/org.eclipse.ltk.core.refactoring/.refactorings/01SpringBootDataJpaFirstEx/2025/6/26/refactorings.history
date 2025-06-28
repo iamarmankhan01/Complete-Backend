@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.app.arman.SpringBootDataJpaFirstExApplication.java&apos; to &apos;Application.java&apos;&#x0D;&#x0A;- Original project: &apos;01SpringBootDataJpaFirstEx&apos;&#x0D;&#x0A;- Original element: &apos;com.app.arman.SpringBootDataJpaFirstExApplication.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.app.arman.Application.java&apos;" description="Rename compilation unit &apos;SpringBootDataJpaFirstExApplication.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.arman{SpringBootDataJpaFirstExApplication.java" name="Application.java" references="false" stamp="1750921447334" version="1.0"/>
+</session>

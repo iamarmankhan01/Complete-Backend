@@ -1,0 +1,12 @@
+package com.app.arman.repo;
+
+import com.app.arman.entity.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public interface BookRepository 
+extends PagingAndSortingRepository<Book, Integer> {
+
+	void save(Book book);
+
+}

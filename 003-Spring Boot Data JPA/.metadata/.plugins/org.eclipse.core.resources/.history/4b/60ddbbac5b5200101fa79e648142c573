@@ -1,0 +1,17 @@
+package com.app.arman.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.app.arman.repo.EmployeeRepository;
+
+public class TestOprRunner implements CommandLineRunner{
+	
+	@Autowired
+	 private EmployeeRepository repo;
+	
+	public void run(String... args ) throws Exception{
+		System.out.println(repo);
+	}
+
+}
