@@ -1,0 +1,8 @@
+my:
+    app:
+        db:
+            database: testdb
+            driver: 'Oracle'
+            password: root
+            url: ODBC
+            username: 'arman1'

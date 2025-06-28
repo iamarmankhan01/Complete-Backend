@@ -1,0 +1,8 @@
+my:
+    app:
+        db:
+            database: testdb
+            driver: 'MySql'
+            password: root
+            url: ODBC
+            username: 'arman'

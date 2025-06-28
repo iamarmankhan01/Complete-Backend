@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean class="com.hw.arman.Student" id="s">
+
+		<property name="sid" value="01 " />
+
+		<property name="sname" value="Arman Khan" />
+
+		<property name="marks">
+			<list>
+				<value>98</value>
+				<value>89</value>
+				<value>88</value>
+				<value>84</value>
+				<value>78</value>
+			</list>
+		</property>
+
+
+		<property name="Subject">
+			<set>
+				<value>Hindi</value>
+				<value>English</value>
+				<value>Mathematics</value>
+				<value>Physics</value>
+				<value>chemistry</value>
+			</set>
+		</property>
+
+
+		<property name="grades">
+			<map>
+			 <entry key="1" value= "A++" />
+			</map>
+		</property>
+
+
+	</bean>
+
+</beans>
